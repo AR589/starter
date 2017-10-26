@@ -16,19 +16,19 @@ If you're using the [Atom](http://atom.io) code editor, install the [atom-live-s
 
 ### HTML
 
-Your "home page" is `index.html`. You can as many `.html` documents as you like.
+Your "home page" is `index.html`. You can as many `.html` documents to your project as you like.
 
 ### CSS
 
 Write your CSS styles in `/css/main.css`. All styles written there will override the included Tachyons styles.
 
-## JavaScript
+### JavaScript
 
 Write your JavaScript in `/javascript/main.js`.
 
 ## Using Git
 
-We use the [Git](https://git-scm.com) version control system to keep track of changes while we work. Using these tools we have the freedom to test out design ideas by using Git's [branch](https://www.atlassian.com/git/tutorials/using-branches) feature, share our code with [GitHub](https://github.com), and easily publish our work on the internet with services like [Netlify](https://www.netlify.com).
+You should use the [Git](https://git-scm.com) version control system to keep track of changes to your project. Using Git also gives you the freedom to test out design ideas with Git's [branch](https://www.atlassian.com/git/tutorials/using-branches) feature, share our code with [GitHub](https://github.com), and easily publish our work on the internet with services like [Netlify](https://www.netlify.com).
 
 To create a Git repository, open Terminal.app and navigate to your project folder. Then type the following command into Terminal:
 
@@ -36,9 +36,9 @@ To create a Git repository, open Terminal.app and navigate to your project folde
 git init
 ```
 
-Committing is akin to "saving" a file, but commits refer to a group of changes that may occur across multiple files, since that's typically how work is done on web projects. 
+Committing is akin to "saving" a file, but commits refer to a group of changes that may occur across multiple files.
 
-This is the commit process that you should do as frequently as you can, but typically when you're at a stopping point on a small piece of work on your project. The process is three steps:
+You should commit as frequently as you can, but typically when you're at a stopping point on a small piece of work on your project. The process is three steps:
 
 ### Step 1: Stage your changes
 
@@ -64,7 +64,7 @@ Then follow the directions to "push an existing repository from the command line
 
 ```shell
 # First: Be sure to replace YOUR_USERNAME and YOUR_REPO_NAME
-# with the correct information
+# with the correct information from GitHub
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
 # Second
